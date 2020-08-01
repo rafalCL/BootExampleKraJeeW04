@@ -3,9 +3,11 @@
 
 <html>
 <head>
+    <%@include file="jspf/cssStyleImport.jspf"%>
+
     <title>Hello</title>
 </head>
 <body>
-<p><spring:message code="hello.welcome"/> ${name}!</p>
+<p class="yellow"><spring:message code="hello.welcome"/> ${name}!</p>
 </body>
 </html>
