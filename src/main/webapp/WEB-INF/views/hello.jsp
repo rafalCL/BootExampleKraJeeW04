@@ -4,6 +4,7 @@
 <html>
 <head>
     <%@include file="jspf/cssStyleImport.jspf"%>
+    <%@include file="jspf/jsImport.jspf"%>
 
     <title>Hello</title>
 </head>
